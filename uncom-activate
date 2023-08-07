@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+import subprocess
+import sys
+
+sys.exit(subprocess.call(["/usr/lib/uncom/uncom-license/uncom-activate.py"] + sys.argv[1:]))
